@@ -1,20 +1,71 @@
-<p>Hello 大家好</p>
-<p>我是武西富，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
-<body background="https://pic2.zhimg.com/v2-4cc61328707b6e0df365397514702855_r.jpg">
-<ul>
-  
-<a href="https://space.bilibili.com/329613181">
-<img border="0" src="http://i1.hdslb.com/bfs/face/b4d3f6e2586bfc28cf819514c125cfdf17628f05.jpg" width="128" height="128" />
-</a><li> <a href="https://space.bilibili.com/329613181">B站</a> </li>
-  
-  
-<a href="https://weibo.com/u/7087163983">
-<img src="https://tvax1.sinaimg.cn/crop.0.0.512.512.50/007JD16vly8gr4s3cwy31j30e80e819t.jpg?KID=imgbed,tva&Expires=1626080535&ssig=vJhOaXGX%2BD" width="128" height="128" />
-</a><li> <a href="https://weibo.com/u/7087163983">微博</a> </li>
-  
-
-<a href="https://github.com/wuxifu?tab=repositories">
-<img src="https://pica.zhimg.com/v2-e73fd38bc5c54385dada1d7c4aa17579_r.jpg" width="128" height="128" />
-</a><li> <a href="https://github.com/wuxifu?tab=repositories">Github</a> </li>  
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星语要天天开心</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            text-align: center;
+            color: #fff;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            animation: zoomIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        button {
+            background: #ff6f61;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>我喜欢你！❤️</h1>
+        <p>你愿意做我的女朋友吗？</p>
+        <button onclick="alert('太棒了！我们会很幸福的！❤️')">愿意</button>
+        <button onclick="alert('别急，再考虑一下嘛～😊')">再想想</button>
+    </div>
+</body>
+</html>
